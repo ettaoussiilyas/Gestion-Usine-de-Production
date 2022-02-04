@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="USINEModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ARTICLE">
+    <Key>
+      <PropertyRef Name="codea" />
+    </Key>
+    <Property Name="codea" Type="Int32" Nullable="false" />
+    <Property Name="Designation" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Prix" Type="Single" />
+    <Property Name="Stock" Type="Int32" />
+    <NavigationProperty Name="Productions" Relationship="Self.FK__Productio__codea__29572725" FromRole="ARTICLE" ToRole="Production" />
+    <NavigationProperty Name="wproductions" Relationship="Self.FK__wproducti__codea__2D27B809" FromRole="ARTICLE" ToRole="wproduction" />
+  </EntityType>
+  <EntityType Name="Employe">
+    <Key>
+      <PropertyRef Name="Mat" />
+    </Key>
+    <Property Name="Mat" Type="Int32" Nullable="false" />
+    <Property Name="Nom" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Prenom" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DN" Type="DateTime" />
+    <Property Name="Adress" Type="String" MaxLength="120" FixedLength="false" Unicode="false" />
+    <Property Name="Tel" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Productions" Relationship="Self.FK__Production__Mat__286302EC" FromRole="Employe" ToRole="Production" />
+    <NavigationProperty Name="wproductions" Relationship="Self.FK__wproduction__Mat__2C3393D0" FromRole="Employe" ToRole="wproduction" />
+  </EntityType>
+  <EntityType Name="Production">
+    <Key>
+      <PropertyRef Name="Num" />
+    </Key>
+    <Property Name="Num" Type="Int32" Nullable="false" />
+    <Property Name="DP" Type="DateTime" />
+    <Property Name="Mat" Type="Int32" />
+    <Property Name="codea" Type="Int32" />
+    <Property Name="qtitep" Type="Int32" />
+    <NavigationProperty Name="ARTICLE" Relationship="Self.FK__Productio__codea__29572725" FromRole="Production" ToRole="ARTICLE" />
+    <NavigationProperty Name="Employe" Relationship="Self.FK__Production__Mat__286302EC" FromRole="Production" ToRole="Employe" />
+  </EntityType>
+  <EntityType Name="wproduction">
+    <Key>
+      <PropertyRef Name="Num" />
+    </Key>
+    <Property Name="Num" Type="Int32" Nullable="false" />
+    <Property Name="DP" Type="DateTime" />
+    <Property Name="Mat" Type="Int32" />
+    <Property Name="NP" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="codea" Type="Int32" />
+    <Property Name="Designation" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="qp" Type="Int32" />
+    <NavigationProperty Name="ARTICLE" Relationship="Self.FK__wproducti__codea__2D27B809" FromRole="wproduction" ToRole="ARTICLE" />
+    <NavigationProperty Name="Employe" Relationship="Self.FK__wproduction__Mat__2C3393D0" FromRole="wproduction" ToRole="Employe" />
+  </EntityType>
+  <Association Name="FK__Productio__codea__29572725">
+    <End Role="ARTICLE" Type="Self.ARTICLE" Multiplicity="0..1" />
+    <End Role="Production" Type="Self.Production" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ARTICLE">
+        <PropertyRef Name="codea" />
+      </Principal>
+      <Dependent Role="Production">
+        <PropertyRef Name="codea" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__wproducti__codea__2D27B809">
+    <End Role="ARTICLE" Type="Self.ARTICLE" Multiplicity="0..1" />
+    <End Role="wproduction" Type="Self.wproduction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ARTICLE">
+        <PropertyRef Name="codea" />
+      </Principal>
+      <Dependent Role="wproduction">
+        <PropertyRef Name="codea" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Production__Mat__286302EC">
+    <End Role="Employe" Type="Self.Employe" Multiplicity="0..1" />
+    <End Role="Production" Type="Self.Production" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employe">
+        <PropertyRef Name="Mat" />
+      </Principal>
+      <Dependent Role="Production">
+        <PropertyRef Name="Mat" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__wproduction__Mat__2C3393D0">
+    <End Role="Employe" Type="Self.Employe" Multiplicity="0..1" />
+    <End Role="wproduction" Type="Self.wproduction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employe">
+        <PropertyRef Name="Mat" />
+      </Principal>
+      <Dependent Role="wproduction">
+        <PropertyRef Name="Mat" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="USINEEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ARTICLEs" EntityType="Self.ARTICLE" />
+    <EntitySet Name="Employes" EntityType="Self.Employe" />
+    <EntitySet Name="Productions" EntityType="Self.Production" />
+    <EntitySet Name="wproductions" EntityType="Self.wproduction" />
+    <AssociationSet Name="FK__Productio__codea__29572725" Association="Self.FK__Productio__codea__29572725">
+      <End Role="ARTICLE" EntitySet="ARTICLEs" />
+      <End Role="Production" EntitySet="Productions" />
+    </AssociationSet>
+    <AssociationSet Name="FK__wproducti__codea__2D27B809" Association="Self.FK__wproducti__codea__2D27B809">
+      <End Role="ARTICLE" EntitySet="ARTICLEs" />
+      <End Role="wproduction" EntitySet="wproductions" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Production__Mat__286302EC" Association="Self.FK__Production__Mat__286302EC">
+      <End Role="Employe" EntitySet="Employes" />
+      <End Role="Production" EntitySet="Productions" />
+    </AssociationSet>
+    <AssociationSet Name="FK__wproduction__Mat__2C3393D0" Association="Self.FK__wproduction__Mat__2C3393D0">
+      <End Role="Employe" EntitySet="Employes" />
+      <End Role="wproduction" EntitySet="wproductions" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

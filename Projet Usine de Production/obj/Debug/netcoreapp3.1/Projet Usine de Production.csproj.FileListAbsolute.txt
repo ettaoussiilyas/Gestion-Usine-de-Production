@@ -1,0 +1,16 @@
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\netcoreapp3.1\Projet Usine de Production.exe
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\netcoreapp3.1\Projet Usine de Production.deps.json
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\netcoreapp3.1\Projet Usine de Production.runtimeconfig.json
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\netcoreapp3.1\Projet Usine de Production.runtimeconfig.dev.json
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\netcoreapp3.1\Projet Usine de Production.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\netcoreapp3.1\Projet Usine de Production.pdb
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\obj\Debug\netcoreapp3.1\Projet Usine de Production.csproj.AssemblyReference.cache
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\obj\Debug\netcoreapp3.1\Projet_Usine_de_Production.Form1.resources
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\obj\Debug\netcoreapp3.1\Projet Usine de Production.csproj.GenerateResource.cache
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\obj\Debug\netcoreapp3.1\Projet Usine de Production.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\obj\Debug\netcoreapp3.1\Projet Usine de Production.AssemblyInfoInputs.cache
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\obj\Debug\netcoreapp3.1\Projet Usine de Production.AssemblyInfo.cs
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\obj\Debug\netcoreapp3.1\Projet Usine de Production.csproj.CoreCompileInputs.cache
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\obj\Debug\netcoreapp3.1\Projet Usine de Production.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\obj\Debug\netcoreapp3.1\Projet Usine de Production.pdb
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\obj\Debug\netcoreapp3.1\Projet Usine de Production.genruntimeconfig.cache

@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+	  <TargetFramework>net48</TargetFramework>
+	  <RootNamespace>Projet_Usine_de_Production</RootNamespace>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CrystalReports.Engine" Version="13.0.4001" />
+    <PackageReference Include="EntityFramework" Version="6.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine">
+      <HintPath>..\..\..\..\..\..\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\CrystalDecisions.CrystalReports.Engine\v4.0_13.0.4000.0__692fbea5521e1304\CrystalDecisions.CrystalReports.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource">
+      <HintPath>..\..\..\..\..\..\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\CrystalDecisions.ReportSource\v4.0_13.0.4000.0__692fbea5521e1304\CrystalDecisions.ReportSource.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared">
+      <HintPath>..\..\..\..\..\..\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\CrystalDecisions.Shared\v4.0_13.0.4000.0__692fbea5521e1304\CrystalDecisions.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.Services">
+      <HintPath>..\..\..\..\..\..\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Web.Services\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

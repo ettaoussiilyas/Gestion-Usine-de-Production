@@ -1,0 +1,81 @@
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\obj\Debug\net48\Projet Usine de Production.csproj.AssemblyReference.cache
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\obj\Debug\net48\Projet Usine de Production.csproj.GenerateResource.cache
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\obj\Debug\net48\Projet Usine de Production.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\obj\Debug\net48\Projet Usine de Production.AssemblyInfoInputs.cache
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\obj\Debug\net48\Projet Usine de Production.AssemblyInfo.cs
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\obj\Debug\net48\Projet Usine de Production.csproj.CoreCompileInputs.cache
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\Projet Usine de Production.exe.config
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\Projet Usine de Production.exe
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\Projet Usine de Production.pdb
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\EntityFramework.SqlServer.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\EntityFramework.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\obj\Debug\net48\Projet Usine de Production.csproj.CopyComplete
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\obj\Debug\net48\Projet Usine de Production.exe
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\obj\Debug\net48\Projet Usine de Production.pdb
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\obj\Debug\net48\Projet_Usine_de_Production.employee.resources
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\obj\Debug\net48\Projet_Usine_de_Production.Articles.resources
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\obj\Debug\net48\Projet_Usine_de_Production.Parent.resources
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\obj\Debug\net48\Projet_Usine_de_Production.Wpproduction.resources
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\obj\Debug\net48\Projet_Usine_de_Production.validation.resources
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\obj\Debug\net48\Projet_Usine_de_Production.consultation.resources
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\CrystalDecisions.Shared.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\log4net.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\cs\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\da\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\de\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\en\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\es\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\fi\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\fr\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\hu\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\it\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\ja\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\ko\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\nb-NO\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\nl\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\pl\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\pt\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\ru\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\sk\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\sv\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\th\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\tr\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\zh-CHS\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\zh-CHT\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\cs\CrystalDecisions.Shared.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\da\CrystalDecisions.Shared.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\de\CrystalDecisions.Shared.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\en\CrystalDecisions.Shared.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\es\CrystalDecisions.Shared.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\fi\CrystalDecisions.Shared.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\fr\CrystalDecisions.Shared.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\hu\CrystalDecisions.Shared.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\it\CrystalDecisions.Shared.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\ja\CrystalDecisions.Shared.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\ko\CrystalDecisions.Shared.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\nb-NO\CrystalDecisions.Shared.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\nl\CrystalDecisions.Shared.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\pl\CrystalDecisions.Shared.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\pt\CrystalDecisions.Shared.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\ru\CrystalDecisions.Shared.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\sk\CrystalDecisions.Shared.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\sv\CrystalDecisions.Shared.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\th\CrystalDecisions.Shared.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\tr\CrystalDecisions.Shared.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\zh-CHS\CrystalDecisions.Shared.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\zh-CHT\CrystalDecisions.Shared.resources.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\CrystalDecisions.ReportSource.dll
+C:\Users\Cheato\source\repos\Projet Usine de Production\Projet Usine de Production\bin\Debug\net48\System.Web.Services.dll

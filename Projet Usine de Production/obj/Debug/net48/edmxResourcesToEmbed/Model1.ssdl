@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="USINEModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ARTICLE">
+    <Key>
+      <PropertyRef Name="codea" />
+    </Key>
+    <Property Name="codea" Type="int" Nullable="false" />
+    <Property Name="Designation" Type="varchar" MaxLength="50" />
+    <Property Name="Prix" Type="real" />
+    <Property Name="Stock" Type="int" />
+  </EntityType>
+  <EntityType Name="Employe">
+    <Key>
+      <PropertyRef Name="Mat" />
+    </Key>
+    <Property Name="Mat" Type="int" Nullable="false" />
+    <Property Name="Nom" Type="varchar" MaxLength="20" />
+    <Property Name="Prenom" Type="varchar" MaxLength="20" />
+    <Property Name="DN" Type="datetime" />
+    <Property Name="Adress" Type="varchar" MaxLength="120" />
+    <Property Name="Tel" Type="varchar" MaxLength="60" />
+  </EntityType>
+  <EntityType Name="Production">
+    <Key>
+      <PropertyRef Name="Num" />
+    </Key>
+    <Property Name="Num" Type="int" Nullable="false" />
+    <Property Name="DP" Type="datetime" />
+    <Property Name="Mat" Type="int" />
+    <Property Name="codea" Type="int" />
+    <Property Name="qtitep" Type="int" />
+  </EntityType>
+  <EntityType Name="wproduction">
+    <Key>
+      <PropertyRef Name="Num" />
+    </Key>
+    <Property Name="Num" Type="int" Nullable="false" />
+    <Property Name="DP" Type="datetime" />
+    <Property Name="Mat" Type="int" />
+    <Property Name="NP" Type="varchar" MaxLength="40" />
+    <Property Name="codea" Type="int" />
+    <Property Name="Designation" Type="varchar" MaxLength="50" />
+    <Property Name="qp" Type="int" />
+  </EntityType>
+  <Association Name="FK__Productio__codea__29572725">
+    <End Role="ARTICLE" Type="Self.ARTICLE" Multiplicity="0..1" />
+    <End Role="Production" Type="Self.Production" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ARTICLE">
+        <PropertyRef Name="codea" />
+      </Principal>
+      <Dependent Role="Production">
+        <PropertyRef Name="codea" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Production__Mat__286302EC">
+    <End Role="Employe" Type="Self.Employe" Multiplicity="0..1" />
+    <End Role="Production" Type="Self.Production" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employe">
+        <PropertyRef Name="Mat" />
+      </Principal>
+      <Dependent Role="Production">
+        <PropertyRef Name="Mat" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__wproducti__codea__2D27B809">
+    <End Role="ARTICLE" Type="Self.ARTICLE" Multiplicity="0..1" />
+    <End Role="wproduction" Type="Self.wproduction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ARTICLE">
+        <PropertyRef Name="codea" />
+      </Principal>
+      <Dependent Role="wproduction">
+        <PropertyRef Name="codea" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__wproduction__Mat__2C3393D0">
+    <End Role="Employe" Type="Self.Employe" Multiplicity="0..1" />
+    <End Role="wproduction" Type="Self.wproduction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employe">
+        <PropertyRef Name="Mat" />
+      </Principal>
+      <Dependent Role="wproduction">
+        <PropertyRef Name="Mat" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="USINEModelStoreContainer">
+    <EntitySet Name="ARTICLE" EntityType="Self.ARTICLE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Employe" EntityType="Self.Employe" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Production" EntityType="Self.Production" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="wproduction" EntityType="Self.wproduction" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Productio__codea__29572725" Association="Self.FK__Productio__codea__29572725">
+      <End Role="ARTICLE" EntitySet="ARTICLE" />
+      <End Role="Production" EntitySet="Production" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Production__Mat__286302EC" Association="Self.FK__Production__Mat__286302EC">
+      <End Role="Employe" EntitySet="Employe" />
+      <End Role="Production" EntitySet="Production" />
+    </AssociationSet>
+    <AssociationSet Name="FK__wproducti__codea__2D27B809" Association="Self.FK__wproducti__codea__2D27B809">
+      <End Role="ARTICLE" EntitySet="ARTICLE" />
+      <End Role="wproduction" EntitySet="wproduction" />
+    </AssociationSet>
+    <AssociationSet Name="FK__wproduction__Mat__2C3393D0" Association="Self.FK__wproduction__Mat__2C3393D0">
+      <End Role="Employe" EntitySet="Employe" />
+      <End Role="wproduction" EntitySet="wproduction" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

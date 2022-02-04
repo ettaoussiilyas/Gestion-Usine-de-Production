@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "J6FEFuyZ4SdRpyyoZ63IW1zhqhHLbS+OF7Rmzz93sov+s9h5f11USNtGQHyV80PhqAzJxZtLaSXzk+Ax3pU+aQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Cheato\\source\\repos\\Projet Usine de Production\\Projet Usine de Production\\Projet Usine de Production.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Cheato\\.nuget\\packages\\crystalreports.engine\\13.0.4001\\crystalreports.engine.13.0.4001.nupkg.sha512",
+    "C:\\Users\\Cheato\\.nuget\\packages\\crystalreports.reportappserver.clientdoc\\13.0.4001\\crystalreports.reportappserver.clientdoc.13.0.4001.nupkg.sha512",
+    "C:\\Users\\Cheato\\.nuget\\packages\\crystalreports.reportappserver.commlayer\\13.0.4001\\crystalreports.reportappserver.commlayer.13.0.4001.nupkg.sha512",
+    "C:\\Users\\Cheato\\.nuget\\packages\\crystalreports.reportappserver.commoncontrols\\13.0.4001\\crystalreports.reportappserver.commoncontrols.13.0.4001.nupkg.sha512",
+    "C:\\Users\\Cheato\\.nuget\\packages\\crystalreports.reportappserver.commonobjectmodel\\13.0.4001\\crystalreports.reportappserver.commonobjectmodel.13.0.4001.nupkg.sha512",
+    "C:\\Users\\Cheato\\.nuget\\packages\\crystalreports.reportappserver.controllers\\13.0.4001\\crystalreports.reportappserver.controllers.13.0.4001.nupkg.sha512",
+    "C:\\Users\\Cheato\\.nuget\\packages\\crystalreports.reportappserver.cubedefmodel\\13.0.4001\\crystalreports.reportappserver.cubedefmodel.13.0.4001.nupkg.sha512",
+    "C:\\Users\\Cheato\\.nuget\\packages\\crystalreports.reportappserver.datadefmodel\\13.0.4001\\crystalreports.reportappserver.datadefmodel.13.0.4001.nupkg.sha512",
+    "C:\\Users\\Cheato\\.nuget\\packages\\crystalreports.reportappserver.datasetconversion\\13.0.4001\\crystalreports.reportappserver.datasetconversion.13.0.4001.nupkg.sha512",
+    "C:\\Users\\Cheato\\.nuget\\packages\\crystalreports.reportappserver.objectfactory\\13.0.4001\\crystalreports.reportappserver.objectfactory.13.0.4001.nupkg.sha512",
+    "C:\\Users\\Cheato\\.nuget\\packages\\crystalreports.reportappserver.prompting\\13.0.4001\\crystalreports.reportappserver.prompting.13.0.4001.nupkg.sha512",
+    "C:\\Users\\Cheato\\.nuget\\packages\\crystalreports.reportappserver.reportdefmodel\\13.0.4001\\crystalreports.reportappserver.reportdefmodel.13.0.4001.nupkg.sha512",
+    "C:\\Users\\Cheato\\.nuget\\packages\\crystalreports.reportappserver.xmlserialize\\13.0.4001\\crystalreports.reportappserver.xmlserialize.13.0.4001.nupkg.sha512",
+    "C:\\Users\\Cheato\\.nuget\\packages\\crystalreports.shared\\13.0.4001\\crystalreports.shared.13.0.4001.nupkg.sha512",
+    "C:\\Users\\Cheato\\.nuget\\packages\\entityframework\\6.2.0\\entityframework.6.2.0.nupkg.sha512",
+    "C:\\Users\\Cheato\\.nuget\\packages\\log4net\\1.2.10\\log4net.1.2.10.nupkg.sha512"
+  ],
+  "logs": []
+}

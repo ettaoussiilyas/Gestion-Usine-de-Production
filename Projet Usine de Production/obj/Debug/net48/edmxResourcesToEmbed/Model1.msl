@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="USINEModelStoreContainer" CdmEntityContainer="USINEEntities">
+    <EntitySetMapping Name="ARTICLEs">
+      <EntityTypeMapping TypeName="USINEModel.ARTICLE">
+        <MappingFragment StoreEntitySet="ARTICLE">
+          <ScalarProperty Name="codea" ColumnName="codea" />
+          <ScalarProperty Name="Designation" ColumnName="Designation" />
+          <ScalarProperty Name="Prix" ColumnName="Prix" />
+          <ScalarProperty Name="Stock" ColumnName="Stock" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employes">
+      <EntityTypeMapping TypeName="USINEModel.Employe">
+        <MappingFragment StoreEntitySet="Employe">
+          <ScalarProperty Name="Mat" ColumnName="Mat" />
+          <ScalarProperty Name="Nom" ColumnName="Nom" />
+          <ScalarProperty Name="Prenom" ColumnName="Prenom" />
+          <ScalarProperty Name="DN" ColumnName="DN" />
+          <ScalarProperty Name="Adress" ColumnName="Adress" />
+          <ScalarProperty Name="Tel" ColumnName="Tel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Productions">
+      <EntityTypeMapping TypeName="USINEModel.Production">
+        <MappingFragment StoreEntitySet="Production">
+          <ScalarProperty Name="Num" ColumnName="Num" />
+          <ScalarProperty Name="DP" ColumnName="DP" />
+          <ScalarProperty Name="Mat" ColumnName="Mat" />
+          <ScalarProperty Name="codea" ColumnName="codea" />
+          <ScalarProperty Name="qtitep" ColumnName="qtitep" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="wproductions">
+      <EntityTypeMapping TypeName="USINEModel.wproduction">
+        <MappingFragment StoreEntitySet="wproduction">
+          <ScalarProperty Name="Num" ColumnName="Num" />
+          <ScalarProperty Name="DP" ColumnName="DP" />
+          <ScalarProperty Name="Mat" ColumnName="Mat" />
+          <ScalarProperty Name="NP" ColumnName="NP" />
+          <ScalarProperty Name="codea" ColumnName="codea" />
+          <ScalarProperty Name="Designation" ColumnName="Designation" />
+          <ScalarProperty Name="qp" ColumnName="qp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
